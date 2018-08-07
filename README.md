@@ -1,4 +1,4 @@
-# Rangers_API_Lab
+# Rangers API Lab
 
 Make a very simple mongo database of your choosing with CRUD functionality, use a seeds file to populate this with data.
 
