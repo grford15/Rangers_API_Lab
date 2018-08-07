@@ -1,0 +1,27 @@
+{
+  "name": "rangers_players_api",
+  "version": "1.0.0",
+  "description": "Make a very simple mongo database of your choosing with CRUD functionality, use a seeds file to populate this with data.",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongodb": "^3.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grford15/Rangers_API_Lab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grford15/Rangers_API_Lab/issues"
+  },
+  "homepage": "https://github.com/grford15/Rangers_API_Lab#readme"
+}
