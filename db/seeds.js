@@ -45,4 +45,32 @@ db.players.insertMany([
   age: 25,
   nationality: "English"
 },
+{
+  name: "Ryan Jack",
+  position: "Midfielder",
+  squadNumber: 8,
+  age: 26,
+  nationality: "Scottish"
+},
+{
+  name: "Jordan Rossiter",
+  position: "Midfielder",
+  squadNumber: 18,
+  age: 21,
+  nationality: "English"
+},
+{
+  name: "Nikola Katic",
+  position: "Defender",
+  squadNumber: 19,
+  age: 21,
+  nationality: "Croatian"
+},
+{
+  name: "Lassana Coulibaly",
+  position: "Midfielder",
+  squadNumber: 23,
+  age: 22,
+  nationality: "Malian"
+}
 ]);

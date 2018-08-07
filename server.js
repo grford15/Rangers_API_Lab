@@ -62,7 +62,7 @@ MongoClient.connect('mongodb://localhost:27017', function(err, client) {
     });
   });
 
-  // DELETE A PLAYER
+  // DELETE ALL PLAYERS
   server.delete('/rangers/players/', function(req, res){
     const filterObject = {}
     const playersCollection = db.collection('players');
@@ -75,6 +75,12 @@ MongoClient.connect('mongodb://localhost:27017', function(err, client) {
       res.send();
     })
   })
+
+  // DELETE ONE PLAYER
+  
+
+
+  // FIND ONE PLAYER
 
   server.listen(3000, function(){
     console.log('Listening on port 3000');
